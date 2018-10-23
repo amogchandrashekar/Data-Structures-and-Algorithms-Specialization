@@ -40,10 +40,7 @@ def get_change(target,coins,coins_sum):
 
     for coin in coins:
         if target>=coin:
-            a=minimum
-            b=get_change(target-coin,coins,coins_sum)
-            numberOfCoins = 1 + min(a,b)
-
+            numberOfCoins = 1 + min(minimum,get_change(target-coin,coins,coins_sum))
             coins_sum[target]=numberOfCoins
 
             if (numberOfCoins < minimum):
