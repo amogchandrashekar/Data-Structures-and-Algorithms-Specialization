@@ -1,5 +1,49 @@
 #Uses python3
 
+"""
+Problem Introduction
+Compute the length of a longest common subsequence of three sequences.
+
+Problem Description
+Task. Given two sequences A = (a 1 , a 2 , . . . , a n ) and B = (b 1 , b 2 , . . . , b m ), find the length of their longest
+common subsequence, i.e., the largest non-negative integer p such that there exist indices 1 ≤ i 1 <
+i 2 < · · · < i p ≤ n and 1 ≤ j 1 < j 2 < · · · < j p ≤ m, such that a i 1 = b j 1 , . . . , a i p = b j p .
+
+Input Format. First line: n. Second line: a 1 , a 2 , . . . , a n . Third line: m. Fourth line: b 1 , b 2 , . . . , b m .
+Constraints. 1 ≤ n, m ≤ 100; −10 9 < a i , b i < 10 9 .
+Output Format. Output p.
+
+Sample 1.
+Input:
+3
+275
+2
+25
+Output:
+2
+A common subsequence of length 2 is (2, 5).
+
+Sample 2.
+Input:
+1
+7
+4
+1234
+Output:
+0
+The two sequences do not share elements.
+
+Sample 3.
+Input:
+4
+2783
+4
+5287
+Output:
+2
+One common subsequence is (2, 7). Another one is (2, 8).
+"""
+
 import sys
 
 def lcs2(a, b):
