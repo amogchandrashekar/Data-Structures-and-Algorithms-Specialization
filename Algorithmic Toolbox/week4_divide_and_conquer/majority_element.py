@@ -1,3 +1,30 @@
+"""
+Problem Description
+
+Task. The goal in this code problem is to check whether an input sequence contains a majority element.
+Input Format. The first line contains an integer n, the next one contains a sequence of n non-negative
+integers a 0 , a 1 , . . . , a n−1 .
+Constraints. 1 ≤ n ≤ 10 5 ; 0 ≤ a i ≤ 10 9 for all 0 ≤ i < n.
+Output Format. Output 1 if the sequence contains an element that appears strictly more than n/2 times,
+and 0 otherwise.
+
+Sample 1.
+Input:
+5
+23922
+Output:
+1
+2 is the majority element.
+
+Sample 2.
+Input:
+4
+1234
+Output:
+0
+There is no majority element in this sequence.
+
+"""
 # Uses python3
 import sys
 
