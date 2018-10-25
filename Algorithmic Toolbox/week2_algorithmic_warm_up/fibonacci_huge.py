@@ -1,3 +1,27 @@
+"""
+
+Problem Description
+Task. Given two integers n and m, output F n mod m (that is, the remainder of F n when divided by m).
+Input Format. The input consists of two integers n and m given on the same line (separated by a space).
+Constraints. 1 ≤ n ≤ 10 18 , 2 ≤ m ≤ 10 3 .
+Output Format. Output F n mod m.
+
+Sample 1.
+Input:
+239 1000
+Output:
+161
+F 239 mod 1 000 = 39 679 027 332 006 820 581 608 740 953 902 289 877 834 488 152 161 (mod 1 000) = 161.
+
+Sample 2.
+Input:
+2816213588 239
+Output:
+151
+F 2 816 213 588 does not fit into one page of this file, but F 2 816 213 588 mod 239 = 151.
+
+"""
+
 # Uses python3
 import sys
 
