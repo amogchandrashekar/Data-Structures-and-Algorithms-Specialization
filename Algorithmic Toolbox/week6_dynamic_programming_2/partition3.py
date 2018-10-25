@@ -89,5 +89,4 @@ def partition3(A):
 if __name__ == '__main__':
     input = sys.stdin.read()
     n, *A = list(map(int, input.split()))
-    # A = [3,3,3]
     print(partition3(A))
