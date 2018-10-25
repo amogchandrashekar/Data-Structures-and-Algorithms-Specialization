@@ -6,3 +6,6 @@ I am learning algorithmic techniques for solving various computational problems 
 For each algorithm we have to develop and implement, they have designed multiple tests to check its correctness and running time — we will have to debug our programs without even knowing what these tests are! I believe this is the best way to truly understand how the algorithms work and to master the art of programming.
 
 The URL for the course : https://www.coursera.org/specializations/data-structures-algorithms
+
+Link to Algorithmic Toolbox course certificate : https://www.coursera.org/account/accomplishments/certificate/2KMF5GW3ADLK
+
