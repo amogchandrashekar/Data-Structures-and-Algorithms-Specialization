@@ -7,5 +7,5 @@ For each algorithm we have to develop and implement, they have designed multiple
 
 The URL for the course : https://www.coursera.org/specializations/data-structures-algorithms
 
-Link to Algorithmic Toolbox course certificate : https://www.coursera.org/account/accomplishments/certificate/2KMF5GW3ADLK
+Link to Algorithmic Toolbox course certificate ( Grade : 95% ) : https://www.coursera.org/account/accomplishments/certificate/2KMF5GW3ADLK
 
